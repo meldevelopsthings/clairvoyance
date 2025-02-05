@@ -1,1 +1,1 @@
-Web based task manager app that uses kanban boards to organize user tasks.
+Clairvoyance is the solution to being unorganised. Whether it be chores or work related, Clairvoyance can be tweaked and customised in a simple manner to allow any authenticated user to manage their time effectively.
