@@ -1,9 +1,19 @@
 @import "tailwindcss";
 
+@font-face {
+    font-family: "Ubuntu";
+    font-weight: 400;
+    src: url("Ubuntu-Regular.ttf");
+}
+
 @theme {
-   
+   --color-bg-500: oklch(37.82% 0.0415 19.18);
+   --color-inner-500: oklch(48.23% 0.0539 19.22);
+   --color-border-500: oklch(34.14% 0.0352 19.04);
+   --color-text-500: oklch(87.2% 0.0144 318.7);
+   --font-default: "Ubuntu";
 }
 
 body {
-    background-color: #996666;
+    background-color: var(--color-bg-500);
 }
