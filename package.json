@@ -1,0 +1,26 @@
+{
+  "name": "clairvoyance",
+  "version": "1.0.0",
+  "description": "Clairvoyance is the solution to being unorganised. Whether it be chores or work related, Clairvoyance can be tweaked and customised in a simple manner to allow any authenticated user to manage their time effectively.",
+  "homepage": "https://github.com/meldevelopsthings/clairvoyance#readme",
+  "bugs": {
+    "url": "https://github.com/meldevelopsthings/clairvoyance/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meldevelopsthings/clairvoyance.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "tailwindcss": "^4.0.4"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.0.4"
+  }
+}
