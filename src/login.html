@@ -7,19 +7,27 @@
     <title>Login</title>
 </head>
 <body>
-    <div class="my-8 p-8">
+    <div class="my-8 py-8">
         <h1 class="text-text-500 text-6xl w-full lg:w-[65%] m-auto text-center font-default font-bold">Login to your account</h1>
     </div>
-    <div>
+    <div class="py-8">
         <form class="text-text-500 text-2xl text-center font-default">
             <label for="Username">Username</label><br>
-            <input class="bg-inner-500" type="text" id="username" name="username"><br>
+            <input class="bg-inner-500 border-solid border-3 rounded-lg border-border-500" type="text" id="username" name="username"><br>
         </form>
     </div>
     <div>
         <form class="text-text-500 text-2xl text-center font-default">
             <label for="Password">Password</label><br>
-            <input class="bg-inner-500" type="text" id="paddword" name="password"><br>
+            <input class="bg-inner-500 border-solid border-3 rounded-lg border-border-500" type="text" id="password" name="password"><br>
+        </form>
+    </div>
+    <div class="py-4">
+        <h4 class="text-text-500 text-xl text-center font-default">Don't have an account? Sign up for one <u>here</u></h4>
+    </div>
+    <div class="my-8 w-60 lg:w-[10%] m-auto text-center">
+        <form class="text-text-500 font-default text-2xl font-bold bg-inner-500 border-solid border-3 rounded-lg border-border-500" action="./index.html">
+            <input type="submit" value="Login">
         </form>
     </div>
 </body>
